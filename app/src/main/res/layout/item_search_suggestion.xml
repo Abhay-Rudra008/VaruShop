@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="8dp"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_history"
+        app:tint="?attr/colorOutline" />
+
+    <TextView
+        android:id="@+id/tvSuggestionText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        android:text="Wireless Earbuds"
+        android:textColor="?attr/colorOnSurface" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_north_west"
+        app:tint="?attr/colorOutline" />
+</LinearLayout>

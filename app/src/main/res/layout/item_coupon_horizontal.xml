@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="1dp"
+    app:strokeColor="?attr/colorOutlineVariant"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvHorizontalCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E8F5E9"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:textColor="#2E7D32"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="SUMMER50" />
+
+        <TextView
+            android:id="@+id/tvHorizontalDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:textSize="12sp"
+            tools:text="Flat ₹50 OFF on purchases above ₹500" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

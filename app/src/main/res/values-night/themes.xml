@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+        <style name="Base.Theme.VaruShop" parent="Theme.Material3.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/primary</item>
+            <item name="colorOnPrimary">@color/slate_900</item>
+
+            <item name="android:windowBackground">@color/surface_background</item>
+            <item name="colorSurface">@color/surface_background</item>
+            <item name="colorOnSurface">@color/text_primary</item>
+            <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+            <item name="colorSurfaceContainerLow">@color/surface</item>
+            <item name="colorOutlineVariant">#334155</item> <item name="android:statusBarColor">@color/surface_background</item>
+            <item name="android:windowLightStatusBar">false</item> </style>
+
+        <style name="Theme.VaruShop" parent="Base.Theme.VaruShop" />
+</resources>

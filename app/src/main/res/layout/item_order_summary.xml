@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="12dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivProduct"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.MediumComponent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvItemTotal"
+        app:layout_constraintStart_toEndOf="@+id/ivProduct"
+        app:layout_constraintTop_toTopOf="@+id/ivProduct"
+        tools:text="Sony WH-1000XM4" />
+
+    <TextView
+        android:id="@+id/tvQuantityAndPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/tvProductName"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductName"
+        tools:text="1 x ₹1,200.00" />
+
+    <TextView
+        android:id="@+id/tvItemStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvProductName"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuantityAndPrice"
+        tools:text="Delivered"
+        tools:textColor="#388E3C"/>
+
+    <TextView
+        android:id="@+id/tvItemTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="₹1,200.00" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

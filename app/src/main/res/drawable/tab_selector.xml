@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🔥 Selected State: Slightly larger and uses your Theme's Primary Color -->
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:gravity="center" android:width="10dp" android:height="10dp">
+                <shape android:shape="oval">
+                    <solid android:color="?attr/colorPrimary" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- ⚪ Unselected State: Slightly smaller and grey -->
+    <item>
+        <layer-list>
+            <item android:gravity="center" android:width="8dp" android:height="8dp">
+                <shape android:shape="oval">
+                    <solid android:color="#D3D3D3" /> <!-- Or use ?attr/colorOutlineVariant -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>
