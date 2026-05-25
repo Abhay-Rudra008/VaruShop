@@ -75,4 +75,4 @@ Watch the full working demo of the VaruShop Retailer app, including order manage
 5. **Run the app:**
 * Connect a physical Android device or start an emulator.
 * Click the green **Run** button or press `Shift + F10`.
-```
+
