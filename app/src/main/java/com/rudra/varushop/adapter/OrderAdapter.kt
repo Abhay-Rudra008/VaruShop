@@ -60,12 +60,15 @@ class OrderAdapter(
                     tvOrderStatus.visibility = View.VISIBLE
                     tvOrderStatus.text = order.status
 
+                    // Ensure every line returns a simple String (the hex code)
                     val statusColor = when (order.status.lowercase()) {
-                        "delivered", "completed" -> "#388E3C" // Green
-                        "cancelled" -> "#D32F2F"              // Red
-                        "shipped", "ongoing" -> "#1976D2"      // Blue
-                        else -> "#F57C00"                      // Orange
+                        "delivered", "completed" -> "#388E3C"      // Green
+                        "cancelled" -> "#D32F2F"                   // Red
+                        "shipped", "ongoing" -> "#1976D2"          // Blue
+                        "out_for_delivery" -> "#E91E63"            // Pink (Extracted from your previous pair)
+                        else -> "#F57C00"                          // Orange
                     }
+
                     tvOrderStatus.setTextColor(statusColor.toColorInt())
 
                     btnTrackOrder.isVisible =

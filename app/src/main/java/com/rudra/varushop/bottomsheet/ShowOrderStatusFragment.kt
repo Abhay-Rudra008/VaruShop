@@ -255,7 +255,7 @@ class ShowOrderStatusFragment : BottomSheetDialogFragment() {
             stepPending.tvStatusTitle.text = "Pending Payment"
             stepConfirmed.tvStatusTitle.text = "Order Confirmed"
             stepShipped.tvStatusTitle.text = "Shipped"
-            stepOutForDelivery.tvStatusTitle.text = "In Transit"
+            stepOutForDelivery.tvStatusTitle.text = "Out For Delivery"
             stepDelivered.tvStatusTitle.text = "Delivered"
         }
     }
