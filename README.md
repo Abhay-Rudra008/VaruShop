@@ -47,8 +47,8 @@ Watch the full working demo of the VaruShop app, including the multi-vendor cart
     <td align="center"><a href="#"><img src="./photo/cart_section.jpg" alt="Cart Section" style="width: 100%; max-width: 250px;"></a><br>Cart Section</td>
   </tr>
   <tr>
-    <td align="center"><a href="#"><img src="./photo/order_description_page.jpg" alt="Order Description" style="width: 100%; max-width: 250px;"></a><br>Order Details</td>
-    <td align="center"><a href="#"><img src="./photo/order_page.jpg" alt="Order Page" style="width: 100%; max-width: 250px;"></a><br>Active Orders</td>
+    <td align="center"><a href="#"><img src="./photo/order_description_page.jpg" alt="Order Description" style="width: 100%; max-width: 250px;"></a><br>Product Details</td>
+    <td align="center"><a href="#"><img src="./photo/order_section.jpg" alt="order_section" style="width: 100%; max-width: 250px;"></a><br>Orders</td>
     <td align="center"><a href="#"><img src="./photo/wishlist_page.jpg" alt="Wishlist Page" style="width: 100%; max-width: 250px;"></a><br>Wishlist</td>
   </tr>
 </table>
@@ -75,9 +75,3 @@ Watch the full working demo of the VaruShop app, including the multi-vendor cart
 * Click the green **Run** button or press `Shift + F10`.
 
 
-
-
-
-1. **Clone the repository:**
-```bash
-   git clone [Your Repository URL]
